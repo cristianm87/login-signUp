@@ -1,0 +1,77 @@
+body {
+  --color-success: green;
+  --color-error: rgb(194, 0, 0);
+  background-color: rgb(243, 243, 243);
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-box {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-text {
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.form-hidden {
+  display: none;
+}
+
+.form-link {
+  text-decoration: none;
+  color: black;
+}
+
+.form-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.form-btn:active {
+  transform: scale(0.98);
+}
+
+.form-btn:focus {
+  box-shadow: none;
+}
+
+.form-message {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.form-message-error {
+  color: var(--color-error);
+}
+
+.form-message-success {
+  color: var(--color-success);
+}
+
+.form-input-error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.form-input-error-message {
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  color: var(--color-error);
+}
+
+.form-input {
+  background-color: rgb(243, 243, 243);
+}
